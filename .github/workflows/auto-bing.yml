@@ -4,10 +4,6 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "0 1 * * *"
-  push:
-    branches: [ gh-pages ]
-  pull_request:
-    branches: [ gh-pages ]
 
 jobs:
   build:
